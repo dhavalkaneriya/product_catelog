@@ -83,20 +83,19 @@ export default class Home extends Component {
                         </div>
 
                         <div className="col-md-3 ">
+                            <div className="form-control float-right mt-5 col-md-12">
                             <Link to="/add">Add New Product</Link>
-
+                            </div>
                         </div>
 
                     </div>
 
                     <div className="row mt-4">
+
                         <ProductListingContainer
                             sortBy={this.state.sortBy}
                             dataSources={this.state.dataSources}
                         />
-
-
-
 
                     </div>
                     <div className="row mt-5">

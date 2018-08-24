@@ -19,8 +19,8 @@ export default class Header extends Component {
         return (
             <React.Fragment>
 
-            <div className="row p-0">
-                <div className="col-md-12 p-0">
+            <div className="row m-0">
+                <div className="col-md-12">
                     <div className="card card--shadow mb-5 fixed-top">
                         <div className="">
                             <nav className="navbar navbar-expand-md col-md-12 ">
@@ -43,20 +43,6 @@ export default class Header extends Component {
                                                       search(e.target.value)
                                                }}
                                                placeholder="Search..."/>
-                                       
-                                        {/*<form className="form-inline my-2 my-lg-0">*/}
-                                            {/*<div className="input-group input-group-sm">*/}
-                                                {/*<input type="text" className="form-control" aria-label="Small"*/}
-                                                       {/*aria-describedby="inputGroup-sizing-sm"*/}
-                                                       {/*placeholder="Search..."/>*/}
-                                                {/*<div className="input-group-append">*/}
-                                                    {/*<button type="button" className="btn btn-secondary btn-number">*/}
-
-                                                        {/*Search*/}
-                                                    {/*</button>*/}
-                                                {/*</div>*/}
-                                            {/*</div>*/}
-                                        {/*</form>*/}
                                     </div>
                                 </div>
                             </nav>

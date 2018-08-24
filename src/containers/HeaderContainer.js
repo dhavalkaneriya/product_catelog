@@ -32,6 +32,7 @@ const mapDispatchToProps = dispatch => {
                     const prodcuts = res.data;
 
                     dispatch(actions.getAllProducts(prodcuts));
+                    dispatch(actions.addToCompare([]));
 
                 });
 

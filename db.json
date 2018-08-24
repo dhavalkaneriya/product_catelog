@@ -31,6 +31,12 @@
       "color": "gray",
       "condition": "used",
       "image": "https://images-na.ssl-images-amazon.com/images/I/315E4GxrX5L.jpg"
+    },
+    {
+      "name": "dell new series",
+      "price": "60000",
+      "image": "https://rukminim1.flixcart.com/image/832/832/jk01bww0/computer/m/m/9/lenovo-na-laptop-original-imaf7gczdfgrxyeh.jpeg?q=100",
+      "id": 5
     }
   ]
 }
